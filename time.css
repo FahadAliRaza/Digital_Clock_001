@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgb(161, 196, 253), rgb(194, 233, 251));
+    font-family: monospace;
+}
+
+
+#clock1 {
+    background-color: rgba(0, 0, 0, 0.651); 
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+#time1 {
+    font-size: 5rem; 
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.6);
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#time1:hover {
+    transform: scale(1.1); 
+    color: rgb(255, 124, 124); 
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6); 
+}
